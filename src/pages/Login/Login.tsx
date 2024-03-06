@@ -1,6 +1,6 @@
 import Button from "../../components/UI/Button/Button";
 import TextField from "../../components/UI/TextField/TextField";
-import streamLogo from "../../assets/logo.svg";
+import streamLogo from "../../assets/images/logo.svg";
 
 const Login = () => {
   return (
