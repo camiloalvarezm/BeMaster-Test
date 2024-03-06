@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 4402 2293" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-2363.82,-4647.89)">
+        <g>
+            <g transform="matrix(1,0,0,1,-114.154,2308.35)">
+                <text x="2469.85px" y="4396.43px" style="font-family:'Walter';font-size:625px;fill:white;">s</text>
+                <text x="2976.73px" y="4396.43px" style="font-family:'Walter';font-size:416.667px;fill:white;">treaming</text>
+                <text x="5431.31px" y="4396.43px" style="font-family:'Walter';font-size:625px;fill:white;">v</text>
+                <text x="5729.44px" y="4396.43px" style="font-family:'Walter';font-size:416.667px;fill:white;">ideo</text>
+            </g>
+            <path d="M2442.72,6183.01C2788.92,5199.88 3506.78,4694.66 4581.52,4648.39C5611.43,4696.54 6343.4,5203.56 6693.24,6299.09L6586.92,6293.79C6231.11,5283.54 5553.43,4789.02 4586.44,4758.11C3614.17,4761.37 2928.17,5230.33 2549.84,6199.83L2442.72,6183.01Z" style="fill:url(#_Linear1);stroke:black;stroke-width:1px;"/>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2125.26,0,0,825.347,4567.98,5473.74)"><stop offset="0" style="stop-color:rgb(3,14,68);stop-opacity:1"/><stop offset="0.15" style="stop-color:rgb(4,56,117);stop-opacity:1"/><stop offset="0.33" style="stop-color:rgb(4,90,156);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(4,102,170);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

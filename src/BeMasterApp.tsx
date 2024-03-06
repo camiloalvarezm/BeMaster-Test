@@ -1,9 +1,12 @@
-function App() {
+import Login from "./pages/Login/Login";
+
+
+const App = () => {
   return (
     <>
-      <h1>BeMaster App</h1>
+     <Login></Login>
     </>
   );
-}
+};
 
 export default App;
