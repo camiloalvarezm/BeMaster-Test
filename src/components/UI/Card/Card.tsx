@@ -4,7 +4,7 @@ interface CardProps {
 
 const Card = ({ img }: CardProps) => {
   const imgBackground = {
-    backgroundImage: `url(${img})`,
+    backgroundImage: `url(/src/assets/images/${img})`,
   };
   return (
     <>

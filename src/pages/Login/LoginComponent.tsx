@@ -3,8 +3,8 @@ import TextField from "../../components/UI/TextField/TextField";
 import streamLogo from "../../assets/images/logo.svg";
 
 const login = () => {
-  console.log('redigir')
-}
+  console.log("redigir");
+};
 
 const LoginComponent = () => {
   return (

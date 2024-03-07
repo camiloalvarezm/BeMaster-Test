@@ -9,7 +9,7 @@ const HeaderComponent = () => {
         <img
           src={streamLogo}
           alt="steam-logo"
-          className="h-14 mx-auto lg:mx-0"
+          className="h-14 mx-auto lg:mx-0 cursor-pointer"
         />
         <nav className="hidden lg:flex">
           <ul className="text-white flex gap-14">
