@@ -1,3 +1,4 @@
+import HeaderComponent from "../../components/Header/HeaderComponent";
 import Card from "../../components/UI/Card/Card";
 
 const ContentCategoryPage = () => {
@@ -6,6 +7,7 @@ const ContentCategoryPage = () => {
   };
   return (
     <>
+      <HeaderComponent />
       <section className="bg-gradient-to-b from-black to-dark-blue">
         <div
           className="h-96 bg-cover b-center mb-10 mx-10 rounded-lg shadow-2xl shadow-midnight-blue"

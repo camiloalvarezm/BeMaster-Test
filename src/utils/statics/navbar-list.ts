@@ -1,30 +1,37 @@
-import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
-import { faList } from "@fortawesome/free-solid-svg-icons";
+import {
+  IconDefinition,
+  faRightFromBracket,
+  faHome,
+  faSearch,
+  faPlus,
+} from "@fortawesome/free-solid-svg-icons";
 
-interface Item {
+export interface Item {
   name: string;
   icon: IconDefinition;
+  path: string;
 }
 
 const MENU_OPTIONS: Item[] = [
   {
     name: "INICIO",
     icon: faHome,
+    path: "/home",
   },
   {
     name: "BÚSQUEDA",
     icon: faSearch,
+    path: "/search",
   },
   {
     name: "MI LISTA",
     icon: faPlus,
+    path: "/my-list",
   },
   {
-    name: "CATEGORIAS",
-    icon: faList,
+    name: "SALIR",
+    icon: faRightFromBracket,
+    path: "/login",
   },
 ];
 

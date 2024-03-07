@@ -19,9 +19,10 @@ const LoginPage = () => {
           action="post"
           className="flex flex-col gap-6 w-80 mx-auto bg-white p-8 rounded-lg lg:w-2/5 lg:mt-5 lg:p-12 lg:max-w-screen-sm"
         >
-          <p className="text-center text-sm">
+          <p className="text-center text-md">
             Ingresa en tu cuenta, si no tienes, se te pedirá que crees una.
           </p>
+          <p className="bg-lime-200 rounded-lg p-5 text-center text-sm text-red">Para acceder a esta demo, utilice un email y contraseña cualquiera.</p>
           <TextField type="email" title="Email" required />
           <TextField type="password" title="Contraseña" required />
           <Button title="Iniciar sesión" onClick={login} />

@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import HomePage from "../pages/Home/HomePage";
 import ContentCategoryPage from "../pages/ContentCategory/ContentCategoryPage";
 import LoginPage from "../pages/Auth/Login/LoginPage";
@@ -7,6 +7,14 @@ import ContentDetailsPage from "../pages/ContentDetails/ContentDetailsPage";
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <Navigate to={"/login"} />,
+  },
+  {
+    path: "/post",
+    element: <Navigate to={"/home"} />,
+  },
+  {
+    path: "/login",
     element: <LoginPage />,
   },
   {
@@ -14,11 +22,11 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/categories",
+    path: "/items-category",
     element: <ContentCategoryPage />,
     children: [
       {
-        path: "details",
+        path: "detail-item",
         element: <HomePage />,
       },
     ],
