@@ -1,5 +1,6 @@
 import HeaderComponent from "../../components/Header/HeaderComponent";
 import Card from "../../components/UI/Card/Card";
+import { Link } from "react-router-dom";
 
 const ContentCategoryPage = () => {
   const imgBackground = {
@@ -15,7 +16,9 @@ const ContentCategoryPage = () => {
         ></div>
         <h2 className="text-white px-10 text-xl">Películas</h2>
         <div className="flex flex-nowrap gap-6 p-10">
-          <Card img="card.png" />
+          <Link to="/item-details/454564">
+            <Card img="card.png" />
+          </Link>
           <Card img="card.png" />
           <Card img="card.png" />
           <Card img="card.png" />

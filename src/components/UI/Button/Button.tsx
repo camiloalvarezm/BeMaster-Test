@@ -13,7 +13,7 @@ const Button = ({ title, size, color, onClick }: ButtonProps) => {
   return (
     <>
       <button
-        className="w-full bg-blue text-white rounded-lg px-6 py-3"
+        className="w-full bg-blue text-white rounded-lg px-6 py-3 hover:opacity-90"
         onClick={onClickButton}
       >
         {title}
