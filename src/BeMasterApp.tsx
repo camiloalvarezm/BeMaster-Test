@@ -1,12 +1,13 @@
-// import Login from "./pages/Login/Login";
-
-import Header from "./components/Header/Header";
+import LoginComponent from "./pages/Login/LoginComponent";
+import HeaderComponent from "./components/Header/HeaderComponent";
+import HomeComponent from "./pages/Home/HomeComponent";
 
 const App = () => {
   return (
     <>
-      {/* <Login></Login> */}
-      <Header></Header>
+      <HeaderComponent></HeaderComponent>
+      <HomeComponent></HomeComponent>
+      <LoginComponent></LoginComponent>
     </>
   );
 };

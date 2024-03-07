@@ -2,10 +2,10 @@ import streamLogo from "../../assets/images/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import MENU_OPTIONS from "../../utils/statics/navbar-list";
 
-const Header = () => {
+const HeaderComponent = () => {
   return (
     <>
-      <header className="bg-black h-24 flex px-10 justify-between items-center">
+      <header className="sticky top-0 z-10 bg-black h-24 flex px-10 justify-between items-center">
         <img
           src={streamLogo}
           alt="steam-logo"
@@ -25,4 +25,4 @@ const Header = () => {
     </>
   );
 };
-export default Header;
+export default HeaderComponent;
