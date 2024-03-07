@@ -24,12 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/items-category",
     element: <ContentCategoryPage />,
-    children: [
-      {
-        path: "detail-item",
-        element: <HomePage />,
-      },
-    ],
+  },
+  {
+    path: "/item-detail/:id",
+    element: <ContentDetailsPage />,
   },
 ]);
 

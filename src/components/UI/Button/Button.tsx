@@ -2,12 +2,12 @@ interface ButtonProps {
   title: string;
   size?: string;
   color?: string;
-  onClick: Function;
+  onClick?: Function;
 }
 
 const Button = ({ title, size, color, onClick }: ButtonProps) => {
   const onClickButton = () => {
-    onClick();
+    if (onClick) onClick();
   };
 
   return (
