@@ -1,6 +1,6 @@
 import Card from "../../components/UI/Card/Card";
 
-const HomeComponent = () => {
+const HomePage = () => {
   return (
     <>
       <div className="flex gap-6 flex-wrap justify-center p-10 bg-gradient-to-b from-black to-dark-blue">
@@ -14,4 +14,4 @@ const HomeComponent = () => {
   );
 };
 
-export default HomeComponent;
+export default HomePage;

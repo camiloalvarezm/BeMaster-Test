@@ -1,19 +1,12 @@
-import LoginComponent from "./pages/Login/LoginComponent";
-import HeaderComponent from "./components/Header/HeaderComponent";
-import HomeComponent from "./pages/Home/HomeComponent";
-import ContentCategoryComponent from "./pages/ContentCategory/ContentCategoryComponent";
-import ContentDetailsComponent from "./pages/ContentDetails/ContentDetailscomponent";
+import { RouterProvider } from "react-router-dom";
+import router from "./router/AppRouter";
 
-const App = () => {
+const BeMasterApp = () => {
   return (
     <>
-      <HeaderComponent />
-      {/* <HomeComponent /> */}
-      <ContentCategoryComponent />
-      {/* <ContentDetailsComponent /> */}
-      {/* <LoginComponent /> */}
+      <RouterProvider router={router} />
     </>
   );
 };
 
-export default App;
+export default BeMasterApp;

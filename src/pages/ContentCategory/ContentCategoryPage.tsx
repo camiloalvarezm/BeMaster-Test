@@ -1,6 +1,6 @@
 import Card from "../../components/UI/Card/Card";
 
-const ContentCategoryComponent = () => {
+const ContentCategoryPage = () => {
   const imgBackground = {
     backgroundImage: `url(/src/assets/images/card.png)`,
   };
@@ -37,4 +37,4 @@ const ContentCategoryComponent = () => {
   );
 };
 
-export default ContentCategoryComponent;
+export default ContentCategoryPage;

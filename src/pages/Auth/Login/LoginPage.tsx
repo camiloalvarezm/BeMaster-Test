@@ -1,12 +1,12 @@
-import Button from "../../components/UI/Button/Button";
-import TextField from "../../components/UI/TextField/TextField";
-import streamLogo from "../../assets/images/logo.svg";
+import Button from "../../../components/UI/Button/Button";
+import TextField from "../../../components/UI/TextField/TextField";
+import streamLogo from "../../../assets/images/logo.svg";
 
 const login = () => {
   console.log("redigir");
 };
 
-const LoginComponent = () => {
+const LoginPage = () => {
   return (
     <>
       <div className="h-screen flex flex-col gap-6 bg-gradient-to-b from-dark-blue to-midnight-blue">
@@ -31,4 +31,4 @@ const LoginComponent = () => {
   );
 };
 
-export default LoginComponent;
+export default LoginPage;

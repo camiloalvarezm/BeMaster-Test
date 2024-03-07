@@ -1,4 +1,4 @@
-const ContentDetailsComponent = () => {
+const ContentDetailsPage = () => {
   const imgBackground = {
     backgroundImage: `url(/src/assets/images/card.png)`,
   };
@@ -12,4 +12,4 @@ const ContentDetailsComponent = () => {
   );
 };
 
-export default ContentDetailsComponent;
+export default ContentDetailsPage;
