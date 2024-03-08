@@ -3,9 +3,7 @@ import TextField from "../../../components/UI/TextField/TextField";
 import streamLogo from "../../../assets/images/logo.svg";
 
 const LoginPage = () => {
-  const login = (e: any) => {
-    e.preventDefault();
-  };
+  const login = (e: any) => {};
 
   return (
     <>
