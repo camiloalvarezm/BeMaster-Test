@@ -14,7 +14,7 @@ Used tools:
 
 If you want to explore the project, just clone this repo, navigate to the route and run `npm i`, then, run `npm run dev`. 
 
-## Deploy
+<!-- ## Deploy
 
-- [Inpired Disney+ App](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
+- [Inpired Disney+ App](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) -->
 
