@@ -5,7 +5,7 @@ interface ButtonProps {
   onClick?: Function;
 }
 
-const Button = ({ title, size, color, onClick }: ButtonProps) => {
+const Button = ({ title, onClick }: ButtonProps) => {
   const onClickButton = () => {
     if (onClick) onClick();
   };

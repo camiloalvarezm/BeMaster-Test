@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import HeaderComponent from "../../components/Header/HeaderComponent";
 import Card from "../../components/UI/Card/Card";
 import { Link } from "react-router-dom";
