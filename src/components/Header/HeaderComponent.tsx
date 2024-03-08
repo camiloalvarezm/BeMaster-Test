@@ -4,10 +4,18 @@ import MENU_OPTIONS, { Item } from "../../utils/statics/navbar-list";
 import { Link, NavLink } from "react-router-dom";
 
 const HeaderComponent = () => {
+  const headerStyles =
+    "sticky top-0 z-10 h-24 flex px-10 justify-center lg:justify-between items-center";
 
   return (
     <>
-      <header className="sticky top-0 z-10 bg-black h-24 flex px-10 justify-center lg:justify-between items-center">
+      <header
+        className={
+          window.location.pathname.includes("item-details")
+            ? headerStyles
+            : `${headerStyles} bg-black`
+        }
+      >
         <Link to="/home">
           <img
             src={streamLogo}

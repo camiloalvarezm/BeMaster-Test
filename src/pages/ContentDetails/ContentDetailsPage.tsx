@@ -3,7 +3,7 @@ import Button from "../../components/UI/Button/Button";
 
 const ContentDetailsPage = () => {
   const imgBackground = {
-    backgroundImage: `url(/src/assets/images/card.png)`,
+    backgroundImage: `url(/src/assets/images/bg-item-details.webp)`,
   };
 
   const itemDetailsStyle = "bg-slate-500 px-2 rounded-md";
@@ -16,7 +16,7 @@ const ContentDetailsPage = () => {
         style={imgBackground}
       ></div>
       <section className="absolute top-0 w-full text-white px-10 lg:px-20 flex flex-col mt-40">
-        <h1 className=" text-6xl lg:text-8xl">Item Name</h1>
+        <h1 className=" text-6xl lg:text-8xl">Star Wars</h1>
         <div className="flex flex-row gap-4 mt-10">
           <span className={itemDetailsStyle}>7+</span>
           <span className={itemDetailsStyle}>HD</span>
