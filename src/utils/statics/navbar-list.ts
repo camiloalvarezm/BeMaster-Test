@@ -21,12 +21,12 @@ const MENU_OPTIONS: Item[] = [
   {
     name: "BÚSQUEDA",
     icon: faSearch,
-    path: "/search",
+    path: "#",
   },
   {
     name: "MI LISTA",
     icon: faPlus,
-    path: "/my-list",
+    path: "#",
   },
   {
     name: "SALIR",

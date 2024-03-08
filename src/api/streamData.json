@@ -21,6 +21,60 @@
         "name": "Terror",
         "imagePath": "terror.svg"
       }
+    ],
+    "movies": [
+      {
+        "name": "Star Wars",
+        "imagePath": "star-wars.webp"
+      },
+      {
+        "name": "Black Widow",
+        "imagePath": "black-widow.webp"
+      },
+      {
+        "name": "Spiderman Home Coming",
+        "imagePath": "spiderman.webp"
+      },
+      {
+        "name": "Harry Potter",
+        "imagePath": "harry-potter.webp"
+      },
+      {
+        "name": "Batman",
+        "imagePath": "batman.webp"
+      }
+    ],
+    "originals": [
+      {
+        "name": "Evangelion",
+        "imagePath": "evangelion.webp"
+      },
+      {
+        "name": "The Last of US",
+        "imagePath": "tlou.webp"
+      },
+      {
+        "name": "Rey Leon",
+        "imagePath": "rey-leon.webp"
+      }
+    ],
+    "shorts": [
+      {
+        "name": "Naruto",
+        "imagePath": "naruto.webp"
+      },
+      {
+        "name": "El Pianista",
+        "imagePath": "el-pianista.webp"
+      },
+      {
+        "name": "Regresión",
+        "imagePath": "regresion.webp"
+      },
+      {
+        "name": "Dragon Ball Z",
+        "imagePath": "dragon-ball-z.webp"
+      }
     ]
   }
 }
