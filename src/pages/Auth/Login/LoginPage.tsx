@@ -2,11 +2,11 @@ import Button from "../../../components/UI/Button/Button";
 import TextField from "../../../components/UI/TextField/TextField";
 import streamLogo from "../../../assets/images/logo.svg";
 
-const login = () => {
-  console.log("redigir");
-};
-
 const LoginPage = () => {
+  const login = () => {
+    //call api
+  };
+
   return (
     <>
       <div className="h-screen flex flex-col gap-6 bg-gradient-to-b from-dark-blue to-midnight-blue">
@@ -22,7 +22,9 @@ const LoginPage = () => {
           <p className="text-center text-md">
             Ingresa en tu cuenta, si no tienes, se te pedirá que crees una.
           </p>
-          <p className="bg-lime-200 rounded-lg p-5 text-center text-sm text-red">Para acceder a esta demo, utilice un email y contraseña cualquiera.</p>
+          <p className="bg-lime-200 rounded-lg p-5 text-center text-sm text-red">
+            Para acceder a esta demo, utilice un email y contraseña cualquiera.
+          </p>
           <TextField type="email" title="Email" required />
           <TextField type="password" title="Contraseña" required />
           <Button title="Iniciar sesión" onClick={login} />

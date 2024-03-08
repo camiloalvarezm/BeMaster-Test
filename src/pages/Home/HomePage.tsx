@@ -1,8 +1,23 @@
+import { useDispatch, useSelector } from "react-redux";
 import HeaderComponent from "../../components/Header/HeaderComponent";
 import Card from "../../components/UI/Card/Card";
 import { Link } from "react-router-dom";
+import { RootState } from "../../store/store";
+import { useEffect } from "react";
+import { updateStream } from "../../store/slices/stream/streamSlice";
+import apiData from "../../api/streamData.json";
 
 const HomePage = () => {
+  const categories = useSelector(
+    (state: RootState) => state.api.streamData.categories
+  );
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(updateStream(apiData.streamData));
+  });
+
   return (
     <>
       <HeaderComponent />
@@ -11,13 +26,11 @@ const HomePage = () => {
           Categorías
         </h1>
         <div className="flex flex-wrap gap-6 justify-center">
-          <Link to="/items-category">
-            <Card img="card.png" />
-          </Link>
-          <Card img="card.png" />
-          <Card img="card.png" />
-          <Card img="card.png" />
-          <Card img="card.png" />
+          {categories.map((category: any, index: number) => (
+            <Link to="/items-category" key={index}>
+              <Card img="card.png" />
+            </Link>
+          ))}
         </div>
       </div>
     </>

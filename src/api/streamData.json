@@ -1,0 +1,26 @@
+{
+  "streamData": {
+    "categories": [
+      {
+        "name": "Acción",
+        "imagePath": ""
+      },
+      {
+        "name": "Comedia",
+        "imagePath": ""
+      },
+      {
+        "name": "Drama",
+        "imagePath": ""
+      },
+      {
+        "name": "Ciencia Ficción",
+        "imagePath": ""
+      },
+      {
+        "name": "Terror",
+        "imagePath": ""
+      }
+    ]
+  }
+}
