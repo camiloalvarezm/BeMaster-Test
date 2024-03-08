@@ -8,15 +8,15 @@ import { updateStream } from "../../store/slices/stream/streamSlice";
 import apiData from "../../api/streamData.json";
 
 const HomePage = () => {
-  const categories = useSelector(
-    (state: RootState) => state.api.streamData.categories
-  );
-
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(updateStream(apiData.streamData));
   });
+
+  const categories = useSelector(
+    (state: RootState) => state.api.streamData.categories
+  );
 
   return (
     <>
@@ -26,9 +26,9 @@ const HomePage = () => {
           Categorías
         </h1>
         <div className="flex flex-wrap gap-6 justify-center">
-          {categories.map((category: any, index: number) => (
+          {categories && categories.map((category: any, index: number) => (
             <Link to="/items-category" key={index}>
-              <Card img="card.png" />
+              <Card img={category.imagePath} />
             </Link>
           ))}
         </div>

@@ -3,23 +3,23 @@
     "categories": [
       {
         "name": "Acción",
-        "imagePath": ""
+        "imagePath": "accion.svg"
       },
       {
         "name": "Comedia",
-        "imagePath": ""
+        "imagePath": "comedia.svg"
       },
       {
         "name": "Drama",
-        "imagePath": ""
+        "imagePath": "drama.svg"
       },
       {
         "name": "Ciencia Ficción",
-        "imagePath": ""
+        "imagePath": "ciencia-ficcion.svg"
       },
       {
         "name": "Terror",
-        "imagePath": ""
+        "imagePath": "terror.svg"
       }
     ]
   }
